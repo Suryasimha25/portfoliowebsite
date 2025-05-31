@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Custom styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(#3a1166, #9346ab);
+}
+
+.btn-outline-custom {
+    border-color: #3a1166;
+    color: #9346ab;
+}
+
+.btn-outline-custom:hover {
+    background-color: #3a1166;
+    color: #ffffff;
+}
+
+.btn-outline-customP {
+    border-color: #3a1166 !important;
+    color: #9346ab !important;
+    border: solid;
+}
+
+.img {
+    width: 60px;
+}
+
+.text-color {
+    color: #7f3ba1;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+/* Bootstrap container override to have some padding */
+.container-bootstrap {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Stylish heading underline for Tailwind skills section */
+.underline-style {
+    border-bottom: 4px solid #3b82f6;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+/* Contact form container */
+#contact {
+    background-color: #e0f2fe;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Input focus style */
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px #2563eb;
+}
